@@ -42,3 +42,14 @@
   };
 
 ```
+
+### Total price or Total Data using reduce funtion :
+
+```
+const TotalCost = (data) => {
+    return data.reduce((acc, curr) => {
+      return acc + curr.qty * curr.price;
+    }, 0);
+  };
+
+```
