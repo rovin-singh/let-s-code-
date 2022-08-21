@@ -1,18 +1,7 @@
-# Some Important Coding Step : 
-
-### Table of Contents
-
-| No. | Questions |
-| --- | --------- |
-|   | **Core React** |
-|1  | [Add data into simple Todo ?](#Add-data-into-simple-Todo) |
+# React Some Important Steps: 
 
 
-## Let's Code 
-
-
-    
-1. ### Add data into simple Todo ?
+## Add Data into Simple Todo :
 
 ```
  const handleAdd = (text) => {
@@ -27,6 +16,3 @@
   };
   
 ```
-
-
-   **[⬆ Back to Top](#table-of-contents)**
