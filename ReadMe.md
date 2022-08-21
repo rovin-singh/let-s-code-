@@ -1,7 +1,6 @@
-# React Some Important Steps: 
+# React Some Important Steps:
 
-
-## Add Data into Simple Todo :
+### Add Data into Simple Todo :
 
 ```
  const handleAdd = (text) => {
@@ -14,5 +13,32 @@
       }
     ]);
   };
-  
+
+```
+
+### Toggle simple Todo Data :
+
+```
+ const handleToggle = (id) => {
+    const updatedData = todos.map((item) =>
+      item.id === id
+        ? {
+            ...item,
+            isCompleted: !item.isCompleted
+          }
+        : item
+    );
+    setTodos(updatedData);
+  };
+
+```
+
+### Delete data from Simple Todo :
+
+```
+ const handleDelete = (id) => {
+    let newTodos = todos.filter((item) => item.id !== id);
+    setTodos(newTodos);
+  };
+
 ```
