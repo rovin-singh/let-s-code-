@@ -14,7 +14,7 @@
     
 1. ### Add data into simple Todo ?
 
-    ```
+```
  const handleAdd = (text) => {
     setTodos([
       ...todos,
@@ -25,7 +25,8 @@
       }
     ]);
   };
-    ```
+  
+```
 
 
    **[⬆ Back to Top](#table-of-contents)**
